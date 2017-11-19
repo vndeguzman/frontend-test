@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import { Header, Footer } from './components/common';
+
 import './app.css';
 
 class App extends Component {
   render () {
     return (
-      <div className="app">
-        <div className="app-header">
-          <h2>Counter App</h2>
+      <div>
+        <Header />
+        <div id="content">
+          // Stuff goes here
         </div>
-        <p className="app-intro">
-
-        </p>
+        <Footer />
       </div>
     );
   }
