@@ -13,7 +13,7 @@ app.use(compression());
 
 function sendFile(name) {
   return function(req, res) {
-    res.sendFile(__dirname + "/static/" + name);
+    res.sendFile(__dirname + "/src/" + name);
   };
 }
 

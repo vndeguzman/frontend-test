@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
-import { Header, Footer } from './components/common';
-
-import './app.css';
+import { Component } from 'react';
+import { Header, Footer } from './common/index';
 
 class App extends Component {
   render () {
