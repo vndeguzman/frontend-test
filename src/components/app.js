@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Header, Footer } from './common/index';
+import { Header, Footer } from './common';
 
 class App extends Component {
   render () {
@@ -11,7 +11,7 @@ class App extends Component {
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 

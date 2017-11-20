@@ -1,1 +1,2 @@
-export { Header, Footer } from 'Header, Footer'
+export * from 'Header'
+export * from 'Footer'

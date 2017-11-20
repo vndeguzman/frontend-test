@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Nav, NavItem } from 'react-bootstrap';
 
-function Footer(/*props*/) {
+const Footer = (/*props*/) => {
   return (
     <footer>
       <Grid>
